@@ -1,0 +1,94 @@
+#businnes-experience {
+    height: 90vh;
+}
+
+.container-experience {
+    width: 50%;
+    margin: 50px auto;
+    height: 90vh;
+}
+
+.businnes-pictures {
+    padding: 30px;
+    width: 250px;
+}
+
+.businnes-pictures img {
+    width: 245px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image1 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.bs-right {
+    padding: 10px 10px;
+}
+
+.bs-text h1 {
+    margin: 12px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.bs-text h1 span {
+    font-weight: 800;
+}
+
+.line {
+    height: 5px;
+    width: 50px;
+    background-color: blue;
+}
+
+.bs-text h3 {
+    margin: 14px 0px;
+    color: blue;
+    font-size: 15px;
+}
+
+.bs-text img {
+    margin: 14px 0px;
+}
+
+.read {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.read:hover {
+    transition: all 0.4s ease;
+    background-color: lightskyblue;
+}
+
+.categorise {
+    border: 1px solid black;
+    /* padding: 30px 30px; */
+    margin: 50px 10px;
+    padding: 10px;
+    background-color: rgb(238, 241, 249);
+}
+
+.number-icon i {
+    font-size: 20px;
+    margin: 2px 40px;
+}
+
+.number-icon {
+    display: flex;
+}
+
+.categorise p {
+    margin: 10px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

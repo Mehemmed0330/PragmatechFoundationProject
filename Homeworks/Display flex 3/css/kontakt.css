@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+}
+
+.section-container {
+    width: 100%;
+}
+
+.header-row {
+    height: 23vh;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.first_nav-row {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(37, 52, 68);
+}
+
+.kampaniylar-row {
+    height: 3vh;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.kampaniyalar-column {
+    width: 15%;
+    height: 3vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.korporativ-column {
+    width: 15%;
+    height: 3vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.magaza-column {
+    width: 18%;
+    height: 3vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.servis-column {
+    width: 13%;
+    height: 3vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.suallar-column {
+    width: 12%;
+    height: 3vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.ayliqodenis-row {
+    display: flex;
+    justify-content: space-around;
+    height: 4.5vh;
+    width: 25%;
+    /* border: 1px solid rgb(128, 91, 91); */
+}
+
+.ayliqodenis-column {
+    width: 16%;
+    height: 4.5vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.heart-column {
+    width: 15%;
+    height: 4.5vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.scales-column {
+    width: 12%;
+    height: 4.5vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.number-column {
+    width: 13%;
+    height: 4.5vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.flaks-column {
+    width: 7%;
+    height: 4.5vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.second_nav-row {
+    height: 12vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 60);
+}
+
+.home-row {
+    height: 12vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontact-column {
+    width: 18%;
+    height: 8vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.search-column {
+    width: 50%;
+    height: 6vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.outlet-column {
+    width: 8%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.signin-column {
+    width: 5%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.persistence-column {
+    width: 8%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.threed_nav-row {
+    height: 5vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 135, 255);
+}
+
+.flower-column {
+    width: 50%;
+    height: 4vh;
+    background-color: white;
+}
+
+.main-row {
+    height: 95vh;
+    width: 82%;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 20%;
+    height: 94vh;
+    border: 2px solid rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.techs {
+    height: 6vh;
+    width: 98%;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.mr_top-column {
+    height: 67vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_picture-column {
+    width: 70%;
+    /* border: 1px solid black; */
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture-row {
+    width: 100%;
+    height: 43vh;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.text-row {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.pay-column {
+    width: 28%;
+    height: 16vh;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.day-offer {
+    height: 67vh;
+    width: 27%;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.right-column {
+    height: 87vh;
+    width: 78%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.mr_footer-column {
+    height: 16vh;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reclam-row {
+    width: 49%;
+    height: 16vh;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.section-daydiscount {
+    height: 70vh;
+    width: 82%;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.daydiscount-row {
+    height: 5vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.daydiscount-column {
+    height: 5vh;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.technoloji-row {
+    height: 53vh;
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    display: flex;
+}
+
+.techrow-column {
+    width: 20%;
+    height: 53vh;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.bid-row {
+    height: 8vh;
+    width: 100%;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.footer {
+    margin: 30px auto;
+    height: 50vh;
+    width: 83%;
+    border: 1px solid rgb(235, 235, 235);
+}

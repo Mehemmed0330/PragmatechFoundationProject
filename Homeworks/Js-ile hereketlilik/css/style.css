@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+#play-area {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.console {
+    width: 210px;
+    height: 120px;
+    /* border: 1px solid black; */
+    background-color: violet;
+}
+
+.console-top {
+    background-color: black;
+    width: 70px;
+    height: 40px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.console-top:hover {
+    background-color: red;
+}
+
+.console-left {
+    background-color: black;
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.console-left:hover {
+    background-color: red;
+}
+
+.console-right {
+    background-color: black;
+    width: 70px;
+    height: 40px;
+    /* display: inline-block; */
+    margin: -40px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.console-right:hover {
+    background-color: red;
+}
+
+.console-down {
+    background-color: black;
+    width: 70px;
+    height: 40px;
+    margin: 40px 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.console-down:hover {
+    background-color: red;
+}
+
+.toy-direction {
+    width: 100%;
+    height: 50vh;
+    /* background-color: chartreuse; */
+    position: relative;
+}
+
+.toy {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    margin: 100px auto;
+}
+
+.console i {
+    color: white;
+}

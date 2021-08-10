@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 87vh;
+    border: 20px solid black;
+    margin: 20px 15px;
+}
+
+.container-allboxes {
+    /* background-color: violet; */
+    height: 78vh;
+    margin: 30px 50px;
+    position: relative;
+}
+
+.div1 h1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.div2 h1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.div3 h1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.div4 h1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.div5 h1 {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.div1 {
+    background-color: rgb(102, 216, 164);
+    display: inline-block;
+    height: 24vh;
+    width: 32%;
+    display: inline-block;
+    position: absolute;
+}
+
+.div2 {
+    display: inline-block;
+    height: 78vh;
+    background-color: rgb(102, 216, 164);
+    width: 32%;
+    margin: 0px 430px;
+    position: absolute;
+}
+
+.div3 {
+    display: inline-block;
+    width: 28.5%;
+    height: 50vh;
+    background-color: rgb(102, 216, 164);
+    margin-left: 855px;
+    position: absolute;
+}
+
+.div4 {
+    display: inline-block;
+    width: 32%;
+    height: 47.5vh;
+    background-color: rgb(102, 216, 164);
+    margin-top: 200px;
+}
+
+.div5 {
+    display: inline-block;
+    margin-left: 39.5%;
+    width: 28.5%;
+    background-color: rgb(102, 216, 164);
+    height: 20vh;
+    margin-top: 380px;
+    position: absolute;
+}

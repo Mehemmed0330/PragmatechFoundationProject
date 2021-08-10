@@ -1,0 +1,36 @@
+#slider-show {
+    width: 100%;
+}
+
+.container {
+    width: 550px;
+    height: 580px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.slide-area {
+    display: none;
+}
+
+.slide-area img {
+    object-fit: contain;
+    width: 550px;
+    height: 450px;
+    margin-top: 10px;
+}
+
+.button-direction {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn_prw {
+    padding: 10px 20px;
+}
+
+.btn_nxt {
+    padding: 10px 20px;
+}

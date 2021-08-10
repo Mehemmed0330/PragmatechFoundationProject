@@ -1,0 +1,60 @@
+#slider {
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    margin: 12px auto;
+    border: 1px solid black;
+}
+
+.container-slider {
+    width: 600px;
+    height: 620px;
+}
+
+.images {
+    display: flex;
+}
+
+#secondimage,
+#thirdimage,
+#fourthimage {
+    display: none
+}
+
+.images img {
+    object-fit: contain;
+    width: 600px;
+    height: 500px;
+}
+
+.click-picture {
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.firstimage_cp {
+    width: 110px;
+    cursor: pointer;
+    height: 100px;
+}
+
+.secondimage_cp {
+    width: 100px;
+    cursor: pointer;
+}
+
+.threedimage_cp {
+    width: 110px;
+    cursor: pointer;
+}
+
+.fourthimage_cp {
+    width: 110px;
+    height: 100px;
+    cursor: pointer;
+}

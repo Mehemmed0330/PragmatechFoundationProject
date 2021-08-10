@@ -1,0 +1,59 @@
+#kleentboost {
+    width: 100%;
+}
+
+.contaienr-kb {
+    width: 600px;
+    margin: 0px auto;
+    background-color: lightgrey;
+}
+
+.items_about-kb {
+    text-align: center;
+}
+
+.items_about-kb h1 {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.items_about-kb p {
+    margin: 8px 0;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#main-kb {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+.container-main {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.items_main-kb {
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 1px 14px 0px grey;
+}
+
+.items_main-kb h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.items_main-kb img {
+    margin: 20px 0;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
