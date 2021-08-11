@@ -9,5 +9,5 @@
    - [Kodlar](https://github.com/Mehemmed0330/mehemmed.github.io)
 
 ## Tədris müddətində yazdığım məqalələr
-- [Məqalə] (https://github.com/PragmatechEducation/FoundationStudent/blob/main) 
-- [Məqalə] (https://github.com/PragmatechEducation/FoundationStudent/blob/main) 
+- [Məqalə](https://github.com/PragmatechEducation/FoundationStudent/blob/main) 
+- [Məqalə](https://github.com/PragmatechEducation/FoundationStudent/blob/main) 
