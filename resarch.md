@@ -118,7 +118,7 @@ container.appendChild(btn);
   }
 }
 - `Imperative` proqramlaşdırma ilə, nə etmək istədiyinizi tərtibçiyə addım-addım izah edirsiniz.Digər tərəfdən, `deklarativ` proqramlaşdırma ilə istədiyinizi izah edən bir kod yazırsınız, ancaq mütləq onu necə əldə edəcəyinizi deyil (istədiyiniz nəticələri elan edin, ancaq addım-addım deyil):
- # Arasdirma6
+ # Arasdirma6 Mövzu:Javascript
  ## Suallar ve Cavablar
  - Mən niyə javascript öyrənməliyəm?
  * Eger mende web sehife yazmaga umid ve istek varsa bu dili oyrenmeliyem.Cunki bu proqram web sehifenin esasini teskil edir.Veb saytımızda bir slider-a ehtiyacımız varmı və ya bir düyməni basdığımız zaman açılacaq bir açılan qutuya ehtiyacımız varmı və ya brauzerdə işləyən bir tətbiqə ehtiyacımız varmı, belə hallarda illərdir istifadə etdiyimiz proqramlaşdırma dili. Javascriptdir.Veb inkişafı yeni vizual cazibə çağına qədəm qoyur. On il əvvəl insanlar özlərini məlumatlandırmaq üçün düz mətn axtarırdılar. Bu gün yalnız üzərində mətni olan və diqqətinizi çəkmək üçün başqa bir şey olmayan bir səhifəni tıklayırsınız. İnternetin mənzərəsi dəyişdikcə günümüzün inkişaf standartları da dəyişir.
@@ -134,3 +134,23 @@ const-Sabitleri elan etmek ucun istifade olunur.
 * 
 - javascript operatorlarının istifadə edərkən nələrə diqqət etməliyəm?
 * Sintaksise alqoritme ardicilliga 
+
+# Arasdirma7 Mövzu:Python
+## Suallar ve Cavablar
+- Python module və package nədir? Necə istifadə olunur?
+ - Proqramımız uzandıqca daha asan görünüm üçün onu bir neçə fayla bölmək istəyə bilərik. Ayrıca, bir neçə  proqramda yazdığımız istifadə olunan əməliyyatı, kodlarını her proqrama kopyalamadan istifadə edə bilərik.Bunu dəstəkləmək üçün Python, bir faylda təriflər qoymaq və onları bir skriptdə və ya tərcüməçinin interaktiv bir nümunəsində istifadə etmək üsuluna malikdir. Belə bir fayl modul adlanır;bir moduldakı təriflər digər modullara və ya əsas modula keçə bilər
+ - Paket, bir paket iyerarxiyası verən kataloqlardakı modulların toplusudur.Paketler, Python'un "nöqtəli modul adları" ndan istifadə edərək modul ad sahəsini konfiqurasiya etmək üsuludur. Məsələn, AB modul adı, A adlı bir paketdə B adlı bir alt modulu təyin edir.
+
+- Module və package arasındakı fərqlər nələrdir?
+ - Paket, Python modullarının toplusudur: bir modul tək bir Python faylı olsa da, bir paketi bir dəstə Python ehtiva edən bir qovluqdan ayırmaq üçün əlavə __init__.py faylını ehtiva edən Python modullarının kataloqudur.Müvafiq kataloqlarda öz __init__.py faylının olması şərtilə paketlər istənilən yerə yerləşdirilə bilər. Modul və paket arasındakı fərq yalnız fayl sistemi səviyyəsində görünür. Bir modul və ya paket idxal edərkən Python tərəfindən yaradılan uyğun obyekt həmişə modul tipindədir.Qeyd edək ki, bir paketi idxal edərkən, bu paketin __init__.py faylındakı dəyişənlər/funksiyalar/siniflər birbaşa görünür, alt paketlər və ya modullar deyil.
+
+- Web Server nədir?
+  - Web Server (Web Server), HTTP protokolundan istifadə edərək internet saytlarında olan faylları istifadəçilərə təqdim edən, istifadəçilərin hər bir istəyinə cavab verən və kompüterlərin avtomatik mexanizmləri ilə idarə olunan bir proqramdır.Veb serverləri normal bir kompüterdə olan bir çox qurğuya malikdir, lakin ekran əvəzinə əmr sistemi və uzaq proqram vasitəsilə idarə olunur. Yalnız veb server proqramını işlətmək üçün hazırlanmış paylaşılan kompüterlər və kompüterlərə veb serverlər də deyilə bilər.
+
+- WSGI nədir?
+ - WSGI (Web Server Gateway Interface) bir interfeysdir. Buna server də deyilə bilər. WSGI yalnız Python üçün tələb olunur. WSGI interfeysləri kodumuzu veb serverlərin anlaya biləcəyi bir forma çevirir. Beləliklə, tətbiqlər (çərçivələr) veb serverlərindən asılı olmayaraq yaradıla bilər.
+
+- Web Server və WSGI arasındakı fərqlər nələrdir?
+ - Veb serverləri Pythonda yazılmış kodu işlədə bilməz. Bunun üçün WSGI serverlərinə ehtiyacları var.
+
+-          
