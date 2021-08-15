@@ -138,19 +138,43 @@ const-Sabitleri elan etmek ucun istifade olunur.
 # Arasdirma7 Mövzu:Python
 ## Suallar ve Cavablar
 - Python module və package nədir? Necə istifadə olunur?
- - Proqramımız uzandıqca daha asan görünüm üçün onu bir neçə fayla bölmək istəyə bilərik. Ayrıca, bir neçə  proqramda yazdığımız istifadə olunan əməliyyatı, kodlarını her proqrama kopyalamadan istifadə edə bilərik.Bunu dəstəkləmək üçün Python, bir faylda təriflər qoymaq və onları bir skriptdə və ya tərcüməçinin interaktiv bir nümunəsində istifadə etmək üsuluna malikdir. Belə bir fayl modul adlanır;bir moduldakı təriflər digər modullara və ya əsas modula keçə bilər
- - Paket, bir paket iyerarxiyası verən kataloqlardakı modulların toplusudur.Paketler, Python'un "nöqtəli modul adları" ndan istifadə edərək modul ad sahəsini konfiqurasiya etmək üsuludur. Məsələn, AB modul adı, A adlı bir paketdə B adlı bir alt modulu təyin edir.
+   - Proqramımız uzandıqca daha asan görünüm üçün onu bir neçə fayla bölmək istəyə bilərik. Ayrıca, bir neçə  proqramda yazdığımız istifadə olunan əməliyyatı, kodlarını her proqrama kopyalamadan istifadə edə bilərik.Bunu dəstəkləmək üçün Python, bir faylda təriflər qoymaq və onları bir skriptdə və ya tərcüməçinin interaktiv bir nümunəsində istifadə etmək üsuluna malikdir. Belə bir fayl modul adlanır;bir moduldakı təriflər digər modullara və ya əsas modula keçə bilər
+   - Paket, bir paket iyerarxiyası verən kataloqlardakı modulların toplusudur.Paketler, Python'un "nöqtəli modul adları" ndan istifadə edərək modul ad sahəsini konfiqurasiya etmək üsuludur. Məsələn, AB modul adı, A adlı bir paketdə B adlı bir alt modulu təyin edir.
 
 - Module və package arasındakı fərqlər nələrdir?
- - Paket, Python modullarının toplusudur: bir modul tək bir Python faylı olsa da, bir paketi bir dəstə Python ehtiva edən bir qovluqdan ayırmaq üçün əlavə __init__.py faylını ehtiva edən Python modullarının kataloqudur.Müvafiq kataloqlarda öz __init__.py faylının olması şərtilə paketlər istənilən yerə yerləşdirilə bilər. Modul və paket arasındakı fərq yalnız fayl sistemi səviyyəsində görünür. Bir modul və ya paket idxal edərkən Python tərəfindən yaradılan uyğun obyekt həmişə modul tipindədir.Qeyd edək ki, bir paketi idxal edərkən, bu paketin __init__.py faylındakı dəyişənlər/funksiyalar/siniflər birbaşa görünür, alt paketlər və ya modullar deyil.
+   - Paket, Python modullarının toplusudur: bir modul tək bir Python faylı olsa da, bir paketi bir dəstə Python ehtiva edən bir qovluqdan ayırmaq üçün əlavə __init__.py faylını ehtiva edən Python modullarının kataloqudur.Müvafiq kataloqlarda öz __init__.py faylının olması şərtilə paketlər istənilən yerə yerləşdirilə bilər. Modul və paket arasındakı fərq yalnız fayl sistemi səviyyəsində görünür. Bir modul və ya paket idxal edərkən Python tərəfindən yaradılan uyğun obyekt həmişə modul tipindədir.Qeyd edək ki, bir paketi idxal edərkən, bu paketin __init__.py faylındakı dəyişənlər/funksiyalar/siniflər birbaşa görünür, alt paketlər və ya modullar deyil.
 
 - Web Server nədir?
-  - Web Server (Web Server), HTTP protokolundan istifadə edərək internet saytlarında olan faylları istifadəçilərə təqdim edən, istifadəçilərin hər bir istəyinə cavab verən və kompüterlərin avtomatik mexanizmləri ilə idarə olunan bir proqramdır.Veb serverləri normal bir kompüterdə olan bir çox qurğuya malikdir, lakin ekran əvəzinə əmr sistemi və uzaq proqram vasitəsilə idarə olunur. Yalnız veb server proqramını işlətmək üçün hazırlanmış paylaşılan kompüterlər və kompüterlərə veb serverlər də deyilə bilər.
+   - Web Server (Web Server), HTTP protokolundan istifadə edərək internet saytlarında olan faylları istifadəçilərə təqdim edən, istifadəçilərin hər bir istəyinə cavab verən və kompüterlərin avtomatik mexanizmləri ilə idarə olunan bir proqramdır.Veb serverləri normal bir kompüterdə olan bir çox qurğuya malikdir, lakin ekran əvəzinə əmr sistemi və uzaq proqram vasitəsilə idarə olunur. Yalnız veb server proqramını işlətmək üçün hazırlanmış paylaşılan kompüterlər və kompüterlərə veb serverlər də deyilə bilər.
 
 - WSGI nədir?
- - WSGI (Web Server Gateway Interface) bir interfeysdir. Buna server də deyilə bilər. WSGI yalnız Python üçün tələb olunur. WSGI interfeysləri kodumuzu veb serverlərin anlaya biləcəyi bir forma çevirir. Beləliklə, tətbiqlər (çərçivələr) veb serverlərindən asılı olmayaraq yaradıla bilər.
+   - WSGI (Web Server Gateway Interface) bir interfeysdir. Buna server də deyilə bilər. WSGI yalnız Python üçün tələb olunur. WSGI interfeysləri kodumuzu veb serverlərin anlaya biləcəyi bir forma çevirir. Beləliklə, tətbiqlər (çərçivələr) veb serverlərindən asılı olmayaraq yaradıla bilər.
 
 - Web Server və WSGI arasındakı fərqlər nələrdir?
- - Veb serverləri Pythonda yazılmış kodu işlədə bilməz. Bunun üçün WSGI serverlərinə ehtiyacları var.
+   - Veb serverləri Pythonda yazılmış kodu işlədə bilməz. Bunun üçün WSGI serverlərinə ehtiyacları var.
 
--          
+- HTTP Request nədir?
+   - Müştəridəki serverdən bəzi məlumatları, siyahıları çəkmək və göstərmək istədikdə və ya bir qeyd yaratdıqda, sifariş verdikdə və OK düyməsini basdıqda istifadə olunan ünsiyyət üsuludur.
+
+- GET,POST request nə deməkdir?
+   - POST: serverə məlumat göndərmək üçün istifadə olunur, body Request(body : from data, parametre, multipart : şəkil və ya video göndərmək)
+   - GET: serverdən faylları/məlumatları almaq üçün istifadə olunur  
+
+- Flask framework necə işləyir?
+  - Flask və Veb Serverlərin İş Məntiqi  
+  ![alt text](https://www.enesonmez.com/wp-content/uploads/2019/07/web_sunucu_mant%C4%B1g%C4%B1.png)
+   - Flask özü jinja2 şablon məntiqindən istifadə edir. Bu, Flask strukturlarını istifadə etməyə imkan verən bir şablon quruluşudur. Bir HTTP sorğusu verdiyimiz zaman bu URL ünvanı bir funksiyanı yerinə yetirir. Əlbəttə ki, indi bu funksiyanın harada olduğunu soruşursunuz, dərhal bildirim ki, saytın yerləşdiyi serverdə yerləşir. Bu funksiya müəyyən python kodları tərtib edir və bizə HTTP cavabı verir. Bu HTTP cavabları HTML şablonlarımız olaraq bizə qayıdır. Bu şablon əvvəlində qeyd etdiyimiz kimi jinja2 şablonudur. Flaskın ümumi məntiqi budur.
+
+- URL nədir? Detalları nədən ibarətdir?
+  - URL,Uniform Resource Loader teriminin qısaldılmış halıdır.Bu, brauzerinizdəki sayt ünvanının göstərildiyi linkdəki məlumatdır.URL, kompüterin serverlə əlaqə qurmaq üçün istifadə etdiyi nömrələri mətin halına gətirir.IP ünvanları veb sayt ziyarətçiləri üçün istifadəsi asan olan məlumatlar deyil. IP ünvanlarını mətnə ​​çevirmək, istifadəçilərin istədikləri sayta daxil olmasını asanlaşdırır. URL eyni zamanda sözügedən veb saytın fayl quruluşunu da müəyyən edir. URL bir protokol, bir domen adı və bir yol var.
+  
+- Virtual environment nədir? Nə üçün istifadə olunur?
+  - Virtual mühit, fərqli layihələr üçün fərqli python mühitlərini ayırmağın yoludur.
+    Məsələn, bir neçə layihəniz olduğunu və bunların hamısının tək bir paket üzərində qurulduğunu düşünək. Bu layihələrin hər biri fərqli bir Flask versiyasından və ya Django'nun fərqli bir versiyasından istifadə edə bilər. Gedib bu paketləri və qlobal sayt paketlərinizi təkmilləşdirsəniz, yeni versiyanın dəstəkləmədiyi bir nöqtəyə və ya digər səhvlərə görə problemlər yarana bilər. Bu təbii olaraq arzuolunmazdır.
+    Məhz bu zaman layihələrin hər birinin yalnız ehtiyac duyduğu asılılıqlara, paketlərə və xüsusi versiyaya sahib olduğu təcrid olunmuş bir mühitə sahib olması daha yaxşıdır.
+    Virtual mühit, bunu etməyə imkan verir və layihələrdə tələb olunan paketləri sistemdən asılı olmayaraq quraşdırmaq və istifadə etmək üçün müxtəlif Python mühitləri yaratmağımıza imkan verir.  
+
+- Yuxarıda yazılan pyton kodları nə iş görür? Sətir sətir izah etməyə çalışın
+  - Burada Flask framework-unu layihəmizə daxil edirik. Bu şəkildə Flask modullarından istifadə edə biləcəyik.Layihəmizin əsasını təşkil etmək üçün bir tətbiqə başlatmalıyıq.Layihəmizi yuxarıdakı kod bloku ilə icra edirik. Burada faylımızın şərtimizlə terminaldan çağırılıb çağırılmadığını soruşuruq. Bu sorğunun nəticəsi "__main__" qaytararsa, bunun terminaldan çağırıldığını başa düşür və tətbiqə başlayır. Bir moduldan çağırıldığını algılarsa, __name__ dəyişəni başqa bir dəyərə qoyulur və tətbiq işləməyəcək. Beləliklə, __name__ dəyişənini də izah etdim.
+
+  Tətbiqimizi bu şəkildə yazıb terminalda işə salsaq, bir səhv mesajı görünəcək, amma qorxmağa ehtiyac yoxdur, hər şey qaydasındadır. Bu mesaj bizə göndərdiyiniz sorğu nəticəsində işləyəcək heç bir funksiyanın olmadığını bildirir. Ekranda bir şey yazaq və tətbiqimizi bitirək.
